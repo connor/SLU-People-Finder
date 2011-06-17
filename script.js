@@ -6,7 +6,6 @@ $(document).ready(function(){
       $("#results-list #header").siblings().remove();
       query=$("#query").val();
       var xhr = new XMLHttpRequest();
-      xhr.open("get", "http://www.nczonline.net/some_resource/", true);
       $.getJSON(url+query, null, function(json){
         $("#header").show();
         $.each(json.resultSet.result,function(i,person){
