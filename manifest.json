@@ -11,7 +11,5 @@
 	},
 	"permissions": [
 	  "http://slu.edu/",
-	  "http://*.google.com/",
-	  "unlimitedStorage"
 	]
 }
